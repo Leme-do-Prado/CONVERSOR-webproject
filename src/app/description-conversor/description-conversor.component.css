@@ -1,0 +1,16 @@
+.p-container {
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 23px;
+    font-family: MS Gothic;
+    margin-top: 28px;
+    text-align: center;
+    max-width: 750px;
+    letter-spacing: -1%;
+    line-height: 150%;
+    color: #f1f1d9;
+}

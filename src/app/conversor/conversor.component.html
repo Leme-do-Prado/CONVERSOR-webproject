@@ -1,0 +1,13 @@
+<div class="conversionContainer">
+    <div class="conversionInputContainer">
+        <input type="text" [(ngModel)]="inputValue" id="qtd" placeholder="Digite o valor aqui" (keyup.enter)="converterParaDolar()"><button type="button" (click)="converterParaDolar()"><p class="text-1">Calcular</p></button>
+    </div>
+    <div class="conversionResultContainer">
+        <div class="conversionBoxContainer">
+            <p *ngIf="convertedValue" class=text-result>${{(convertedValue!== null && convertedValue!== undefined) ? convertedValue.toFixed(4) : "0.0000" }}</p>
+            <p *ngIf="!convertedValue" class=text-result>0.0000</p>
+            <p class="dollar-count-text">dólares</p>
+        </div>
+        <p class="source">* Segundo a X-Rates</p>
+    </div>
+</div>

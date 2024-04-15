@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 225px;
+    background-color: #34342B;
+    /* Cor de fundo escura */
+    padding: 10px 0;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+}
+
+.text-white {
+    color: white;
+    /* Cor do texto branca */
+    font-size: 12px;
+    /* Tamanho da fonte pequeno */
+}

@@ -1,0 +1,9 @@
+hr {
+    width: 50%;
+    max-width: 850px;
+    margin: 0 auto;
+    border: none;
+    height: 1px;
+    background-color: #f5f3f3;
+    margin-top: 15px;
+}

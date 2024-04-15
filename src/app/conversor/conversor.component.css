@@ -1,0 +1,85 @@
+.conversionContainer {
+    align-items: center;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conversionInputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.conversionInputContainer>input {
+    width: 180px;
+    border-radius: 4.074979782104492px;
+    padding: 8.149959564208984px;
+    gap: 10.18744945526123px;
+    background-color: #ffffff;
+    border: 1.018744945526123px solid #a5a5a5;
+}
+
+.conversionInputContainer>button {
+    margin-left: 32px;
+    border-radius: 8.149959564208984px;
+    padding: 0px 16.29991912841797px;
+    gap: 8.149959564208984px;
+    background-color: #34342b;
+    border: 1.018744945526123px solid #e8e8c6;
+}
+
+.text-1 {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 16.29991912841797px;
+    font-family: Inter;
+    line-height: 120%;
+    color: #e8e8c6;
+}
+
+.conversionBoxContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 55px;
+    height: 107px;
+    width: 395px;
+    background-color: #34342b;
+}
+
+.text-result {
+    text-align: left;
+    margin-left: 62px;
+    vertical-align: middle;
+    font-size: 61.12469482421875px;
+    font-family: Inter;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.dollar-count-text {
+    margin-bottom: -5px;
+    margin-left: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24.449878692626953px;
+    font-family: Inter;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.conversionResultContainer {
+    flex-direction: column;
+}
+
+.source {
+    margin-top: -2px;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: Kdam Thmor;
+    line-height: 150%;
+    color: #e8e8c6;
+}
